@@ -44,3 +44,6 @@ def chunk_document(doc:Document, chunk_size: int =512, overlap: int = 64 ) -> li
         index += 1
 
     return chunks
+
+if __name__  == "__main__":
+    return
